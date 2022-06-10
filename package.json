@@ -1,13 +1,13 @@
 {
-  "name": "discord-backend",
+  "name": "realtime_chat_server",
   "version": "1.0.0",
-  "description": "",
+  "description": "An API for real time chat and video systems",
   "main": "server.js",
   "scripts": {
     "prod:server": "node server.js",
     "dev:server": "nodemon server.js"
   },
-  "author": "",
+  "author": "Daniel Brai",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
