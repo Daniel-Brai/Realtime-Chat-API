@@ -41,6 +41,6 @@ socketServer.registerSocketServer(server);
 
 const PORT = process.env.PORT || 3001;
 server.listen(PORT, () => {
-  console.log(`⚡ [server]: Server is listening on ${PORT}`);
+  console.log(`⚡ [server]: Server is listening on ${PORT}....`);
 });
 

@@ -1,13 +1,13 @@
 const authSocket = require("./middleware/authSocket");
-const newConnectionHandler = require("./socketHandlers/newConnectionHandler");
-const disconnectHandler = require("./socketHandlers/disconnectHandler");
-const directMessageHandler = require("./socketHandlers/directMessageHandler");
-const directChatHistoryHandler = require("./socketHandlers/directChatHistoryHandler");
-const roomCreateHandler = require("./socketHandlers/roomCreateHandler");
-const roomJoinHandler = require("./socketHandlers/roomJoinHandler");
-const roomLeaveHandler = require("./socketHandlers/roomLeaveHandler");
-const roomInitializeConnectionHandler = require("./socketHandlers/roomInitializeConnectionHandler");
-const roomSignalingDataHandler = require("./socketHandlers/roomSignalingDataHandler");
+const newConnectionHandler = require("./utils/newConnectionHandler");
+const disconnectHandler = require("./utils/disconnectHandler");
+const directMessageHandler = require("./utils/directMessageHandler");
+const directChatHistoryHandler = require("./utils/directChatHistoryHandler");
+const roomCreateHandler = require("./utils/roomCreateHandler");
+const roomJoinHandler = require("./utils/roomJoinHandler");
+const roomLeaveHandler = require("./utils/roomLeaveHandler");
+const roomInitializeConnectionHandler = require("./utils/roomInitializeConnectionHandler");
+const roomSignalingDataHandler = require("./utils/roomSignalingDataHandler");
 
 const serverStore = require("./serverStore");
 
