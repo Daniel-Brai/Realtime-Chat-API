@@ -12,7 +12,7 @@ const connectDB = async() => {
             console.log(`💾 [database]: Database connection established....`)
         })
         .catch((err) => {
-            console.log(`😥 [database]: Database connection established....`);
+            console.log(`😥 [database]: Database connection not established....`);
             console.error(err);
         })
 }
